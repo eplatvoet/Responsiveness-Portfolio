@@ -7,30 +7,48 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kristi&display=swap" rel="stylesheet">
 
     
 </head>
 <body>
-    <!-- jumbotron code from getbootstrap.com -->
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">erin platvoet</h1>
-          <p class="lead">welcome to my personal page</p>
-        </div>
-      </div>
+  
+  <!-- nav bar tester w3schools -->
+  <div id="navbar">
+    <a class="active" href="#">home</a>
+    <a href="about me.html">about me</a>
+    <a href="portfolio.html">portfolio</a>
+    <a href="contact.html">contact me</a>
+  </div>
+  
+<div class="container">
+<div class="row justify-content-md-center name">
+erin platvoet
+</div>
 
-    <aside>
-        <ul>
-            <li>
-                <a href="about me.html" title="About Me">about me</a>
-            </li>
-            <li>
-                <a href="contact.html" title="Contact Me">contact me</a>
-            </li>
-            <li>
-                <a href="portfolio.html" title="My Portfolio">my portfolio</a>
-            </li>
-        </ul>
-    </aside>
+<div class="row">
+  <div class="col-md-3">about me</div>
+  <div class="col-md-3">my portfolio</div>
+  <div class="col-md-3">contact me</div>
+</div>
+
+</div>
+<footer></footer>
+<!-- JS for tester nav bar -->
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
+
 </body>
 </html>
