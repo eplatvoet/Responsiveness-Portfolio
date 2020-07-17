@@ -1,0 +1,13 @@
+*{
+    background-color: salmon;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+.jumbotron{
+    background-color: gray;
+    color: white;
+}
+
+nav{
+    background-color: gray;
+    color: white;
+}
