@@ -88,3 +88,20 @@ input[type=submit]:hover {
     size: 20px;
     color: white;
 }
+
+/* media queries */
+@media screen and (min-width: 600px) {
+    .name {
+      font-size: 200px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .name {
+      font-size: 100px;
+    }
+
+@media screen and (max-width: 400px) {
+  .name {
+     font-size: 75px;
+    }
