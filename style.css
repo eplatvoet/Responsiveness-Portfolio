@@ -97,11 +97,20 @@ input[type=submit]:hover {
   }
   
   @media screen and (max-width: 600px) {
+      * {
+          justify-content: center;
+      }
     .name {
       font-size: 100px;
     }
 
 @media screen and (max-width: 400px) {
+    * {
+        justify-content: center;
+    }
   .name {
      font-size: 75px;
+    }
+    .pan {
+        width: 400px;
     }
