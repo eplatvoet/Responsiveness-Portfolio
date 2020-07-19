@@ -42,14 +42,18 @@
 
 
 body{
-    background-color: salmon;
+    background-color:#EDEDED ;
     font-family: 'Shadows Into Light Two', cursive;
 }
 
 .name{
     font-family: 'Cedarville Cursive', cursive;
-    font-size: 200px;
-    color: white;
+    font-size: 175px;
+    color: salmon;
+}
+
+.col-md-8{
+    color:salmon
 }
 
 .contact {box-sizing: border-box;}
@@ -86,25 +90,32 @@ input[type=submit]:hover {
 
 .footer{
     size: 20px;
-    color: white;
+    color: salmon;
 }
 
 /* media queries */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 991px) {
     .name {
-      font-size: 200px;
+      font-size: 175px;
     }
   }
-  
-  @media screen and (max-width: 600px) {
-      * {
-          justify-content: center;
-      }
-    .name {
-      font-size: 100px;
-    }
 
-@media screen and (max-width: 400px) {
+  @media screen and (max-width: 990px) {
+    * {
+        justify-content: center;
+    }
+  .name {
+    font-size: 130px;
+  }
+  @media screen and (max-width: 767px) {
+    * {
+        justify-content: center;
+    }
+  .name {
+    font-size: 100px;
+  }
+
+@media screen and (max-width: 519px) {
     * {
         justify-content: center;
     }
@@ -112,3 +123,13 @@ input[type=submit]:hover {
      font-size: 75px;
     }
     
+@media screen and (max-width: 389px) {
+        * {
+                 justify-content: center;
+        }
+      .name {
+        font-size: 60px;
+      }
+      p.{ 
+          color: black
+      }
