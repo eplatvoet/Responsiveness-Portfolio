@@ -44,6 +44,7 @@
 body{
     background-color:#EDEDED ;
     font-family: 'Shadows Into Light Two', cursive;
+    color: #201F1F;
 }
 
 .name{
@@ -52,9 +53,6 @@ body{
     color: salmon;
 }
 
-.col-md-8{
-    color:salmon
-}
 
 .contact {box-sizing: border-box;}
 
