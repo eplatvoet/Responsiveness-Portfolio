@@ -5,7 +5,8 @@
 https://www.fiftyflowers.com/product/coral-reef-gerbera-daisy-flower.htm image for fav icon, and home page links (edited with PhotoScapeX)
 https://favicon.io/favicon-converter/
 https://dlpng.com/png/936055 construction image
-
+https://imageog.flaticon.com/icons/png/512/61/61109.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF
+https://thumbs.dreamstime.com/b/email-icon-isolated-white-background-open-envelope-pictogram-line-mail-symbol-website-design-app-ui-vector-illustration-106510001.jpg
 https://www.w3schools.com/css/tryit.asp?filename=trycss_mediaqueries_fontsize media queries help
 
 images in about me:

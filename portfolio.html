@@ -1,77 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>erin platvoet</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap"
-      rel="stylesheet"
-    />
-    <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
-    <link rel="manifest" href="site.webmanifest" />
-  </head>
-  <body>
-    <!-- nav bar tester w3schools -->
-    <div id="navbar">
-      <a href="index.html">home</a>
-      <a href="about me.html">about</a>
-      <a class="active" href="#">portfolio</a>
-      <a href="contact.html">contact</a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>erin platvoet</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet" />
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+</head>
+
+<body>
+
+<!-- nav bar from bootstrap/w3schools -->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">erin platvoet</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">home page</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="aboutme.html">about me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">contact me</a>
+      </li>   
+    </ul>
+  </div>  
+</nav>
+
+  <br /><br />
+
+  <div class="container">
+    <div class="row justify-content-md-center name">
+      erin platvoet
+    </div>
+    <div class="row justify-content-md-center">
+      <img src="assets/images/pages/construction.png" alt="under construction" height="300px" width="300px" />
     </div>
 
-    <br /><br />
+    <br /><br /><br />
 
-    <div class="container">
-      <div class="row justify-content-md-center name">
-        erin platvoet
-      </div>
-      <div class="row justify-content-md-center">
-        <img
-          src="construction.png"
-          alt="under construction"
-          height="300px"
-          width="300px"
-        />
-      </div>
+  </div>
 
-      <br /><br /><br />
 
-      <div class="row justify-content-md-center footer">
-        erin platvoet - 2020
-      </div>
-    </div>
+  <footer>erin platvoet - 2020</footer>
 
-    <!-- JS for tester nav bar -->
-    <script>
-      window.onscroll = function () {
-        myFunction();
-      };
+  <!-- JS for tester nav bar -->
+  <script>
+    window.onscroll = function () {
+      myFunction();
+    };
 
-      var navbar = document.getElementById("navbar");
-      var sticky = navbar.offsetTop;
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
 
-      function myFunction() {
-        if (window.pageYOffset >= sticky) {
-          navbar.classList.add("sticky");
-        } else {
-          navbar.classList.remove("sticky");
-        }
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky");
+      } else {
+        navbar.classList.remove("sticky");
       }
-    </script>
-  </body>
+    }
+  </script>
+</body>
+
 </html>
