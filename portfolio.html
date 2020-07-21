@@ -19,29 +19,12 @@
 
 <body>
 
-<!-- nav bar from bootstrap/w3schools -->
-<nav class="navbar navbar-expand-md bg-dark navbar-dark">
-  <a class="navbar-brand" href="#">erin platvoet</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">home page</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="aboutme.html">about me</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">portfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contact.html">contact me</a>
-      </li>   
-    </ul>
-  </div>  
-</nav>
+  <div id="navbar">
+    <a href="index.html">home</a>
+    <a href="aboutme.html">about</a>
+    <a class="active" href="#">portfolio</a>
+    <a href="contact.html">contact</a>
+  </div>
 
   <br /><br />
 
@@ -60,23 +43,23 @@
 
   <footer>erin platvoet - 2020</footer>
 
-  <!-- JS for tester nav bar -->
-  <script>
-    window.onscroll = function () {
-      myFunction();
-    };
-
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop;
-
-    function myFunction() {
-      if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky");
-      } else {
-        navbar.classList.remove("sticky");
-      }
-    }
-  </script>
 </body>
+
+  <!-- JS for tester nav bar -->
+ <script>
+  window.onscroll = function () { myFunction() };
+
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+</script>
+
 
 </html>

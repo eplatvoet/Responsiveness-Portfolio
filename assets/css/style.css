@@ -1,25 +1,66 @@
-
-
-body{
-    background-color:#EDEDED ;
-    font-family: 'Shadows Into Light Two', cursive;
-    color: #201F1F;
+/* nav bar from w3 schools */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
 }
 
-.name{
-    font-family: 'Cedarville Cursive', cursive;
-    font-size: 175px;
-    color: salmon;
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
-/* 
-.homepage{
-    text
-} */
 
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
 
-.contact {box-sizing: border-box;}
+#navbar a.active {
+  background-color: white;
+  color: salmon;
+}
 
-input[type=text], select, textarea {
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+body {
+  background-color: #ededed;
+  font-family: "Shadows Into Light Two", cursive;
+  color: #201f1f;
+}
+
+.name {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 175px;
+  color: salmon;
+}
+
+.profile {
+  padding: 5px;
+}
+
+.contact {
+  box-sizing: border-box;
+}
+
+input[type="text"],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -30,7 +71,7 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
-input[type=submit] {
+input[type="submit"] {
   background-color: gray;
   color: white;
   padding: 12px 20px;
@@ -39,58 +80,58 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: salmon;
 }
 
-.contact{
+.contact {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
 }
 
-footer{
-    text-align: center;
-    size: 20px;
-    color: salmon;
+footer {
+  text-align: center;
+  size: 20px;
+  color: salmon;
 }
 
 /* media queries */
 @media screen and (min-width: 991px) {
-    .name {
-      font-size: 175px;
-    }
+  .name {
+    font-size: 175px;
   }
+}
 
-  @media screen and (max-width: 990px) {
-    * {
-        justify-content: center;
-    }
+@media screen and (max-width: 990px) {
+  * {
+    justify-content: center;
+  }
   .name {
     font-size: 130px;
   }
 }
-  @media screen and (max-width: 767px) {
-    * {
-        justify-content: center;
-    }
+@media screen and (max-width: 767px) {
+  * {
+    justify-content: center;
+  }
   .name {
     font-size: 100px;
   }
-  }
+}
 @media screen and (max-width: 519px) {
-    * {
-        justify-content: center;
-    }
+  * {
+    justify-content: center;
+  }
   .name {
-     font-size: 75px;
-    }
-  } 
+    font-size: 75px;
+  }
+}
 @media screen and (max-width: 389px) {
-    * {
-       justify-content: center;
-    }
-    .name {
-      font-size: 60px;
-      }
-    }
+  * {
+    justify-content: center;
+  }
+  .name {
+    font-size: 60px;
+  }
+}
