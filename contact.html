@@ -21,13 +21,30 @@
 
 <body>
 
-  <!-- nav bar from bootstrap/w3schools -->
-  <div id="navbar">
-    <a href="index.html">home</a>
-    <a href="aboutme.html">about</a>
-    <a href="portfolio.html">portfolio</a>
-    <a class="active" href="#">contact</a>
+ <!-- nav bar from bootstrap, with my own styling added -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top navstyling">
+  <a class="navbar-brand brand" href="#">erin platvoet</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">home <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="aboutme.html">about me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="portfolio.html">my portfolio</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">contact me</a>
+      </li>
+    </ul>
   </div>
+</nav>
+
 
   <br /><br />
 
@@ -55,12 +72,12 @@
       <a href="mailto:erin.didomenico520@gmail.com">
         <img
           src="https://thumbs.dreamstime.com/b/email-icon-isolated-white-background-open-envelope-pictogram-line-mail-symbol-website-design-app-ui-vector-illustration-106510001.jpg"
-          width="100px" height="100px" alt="Email Me" title="click here to email me">
+          width="100" height="100" alt="Email Me" title="click here to email me">
     </div>
 
     <div class="col-xs-3">
       <a href="https://www.linkedin.com/in/erinplatvoet">
-        <img src="https://image.flaticon.com/icons/svg/61/61109.svg" width="100px" height="100px" alt="LinkedIn"
+        <img src="https://image.flaticon.com/icons/svg/61/61109.svg" width="100" height="100" alt="LinkedIn"
           title="click here to go to my LinkedIn page">
     </div>
   </div>
@@ -70,22 +87,9 @@
 
 
   <footer>erin platvoet - 2020</footer>
-
-   <!-- JS for tester nav bar -->
-   <script>
-    window.onscroll = function () { myFunction() };
-
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop;
-
-    function myFunction() {
-      if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-      } else {
-        navbar.classList.remove("sticky");
-      }
-    }
-  </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>
