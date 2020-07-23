@@ -1,5 +1,6 @@
 # Assignment 2 - Responsiveness Portfolio
 This assignment was to create a personal portfolio that was responsive to differing screen sizes. We were required to make an "about me" page, a "contact" page, and a portfolio page. The portfolio page can be added to as we continue to complete assignments in the class, but for now, I left it "under construction."  Other requirements for this assignment were to use bootstrap, ensure all properties catered to differing screen sizes, working links, personal information, and having the HTML documents validated.
+*It has been noted for future assignments to have a more descriptive repository name vs. "homework_#". 
 
 ## Technology/Sources Used:
 In order to complete this assignment, I reviewed a lot of the activities/slides from class, used the Bootstrap website & w3schools website for help, as well as asking other students in the class for help when I was having issues getting codes to work.<br>
