@@ -91,11 +91,7 @@ footer {
   .name {
     font-size: 175px;
   }
-  img {
-    width: 85%;
-    height: auto;
   }
-}
 
 @media screen and (max-width: 990px) {
   * {
@@ -103,10 +99,6 @@ footer {
   }
   .name {
     font-size: 130px;
-  }
-  img {
-    width: 85%;
-    height: auto;
   }
 }
 @media screen and (max-width: 767px) {
