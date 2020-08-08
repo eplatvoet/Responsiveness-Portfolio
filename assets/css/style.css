@@ -45,8 +45,7 @@ body {
 }
 
 .assignments{
-  width: 25%;
-  height: 25%;
+  justify-content: center;
 }
 .contact {
   box-sizing: border-box;
