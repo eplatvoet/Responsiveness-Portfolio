@@ -44,6 +44,10 @@ body {
   padding: 5px;
 }
 
+.assignments{
+  width: 25%;
+  height: 25%;
+}
 .contact {
   box-sizing: border-box;
 }
@@ -85,6 +89,7 @@ footer {
   size: 20px;
   color: salmon;
 }
+
 
 /* media queries */
 @media screen and (min-width: 991px) {
