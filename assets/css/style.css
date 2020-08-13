@@ -40,6 +40,11 @@ body {
   color: salmon;
 }
 
+.info
+{
+  padding: 75px;
+}
+
 .profile {
   padding: 5px;
 }
